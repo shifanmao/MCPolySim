@@ -1,0 +1,7 @@
+#rm xyz/*
+rm pdb/*
+
+#cp ../../data/r* xyz/.
+
+chmod u+x mkpdbpoly.pl
+./mkpdbpoly.pl

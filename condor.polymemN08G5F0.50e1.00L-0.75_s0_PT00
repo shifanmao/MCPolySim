@@ -1,0 +1,11 @@
+Universe = vanilla
+Executable = /tower3/home/shifan/AJS-rand-wlc-pt-10-20-14/wlcsim
+Initialdir = /tower3/home/shifan/polymem-wlc-pt/wlc-rand-pt-1/rand-wlc-0/
+output = stdout.N08G5F0.50e1.00L-0.75_s0_PT00.$(Process)
+error = stderr.N08G5F0.50e1.00L-0.75_s0_PT00.$(Process)
+Log = N08G5F0.50e1.00L-0.75_s0_PT00.log
+Arguments = cp1.N08G5F0.50e1.00L-0.75_s0_PT00.$(Process)
++NeverSuspend = True
+#+NeverPreempt = True
++TimeBeforePreempt = 72
+Queue 1

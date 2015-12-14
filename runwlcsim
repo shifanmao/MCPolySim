@@ -1,0 +1,6 @@
+cd code
+gfortran -fbounds-check -o wlcsim SIMcode/* BDcode/* DATAcode/* MCcode/*
+cd ..
+mv code/wlcsim .
+#mv data/* trash/.
+./wlcsim

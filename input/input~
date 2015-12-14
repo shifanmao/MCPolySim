@@ -1,0 +1,119 @@
+! ---- ---- ----
+! ---- input file ----
+
+!INPUT 1
+!PTON
+0
+
+!INPUT 2
+!N Number of beads
+8
+
+!INPUT 3
+!G # of submonomers in each monomer
+5
+
+!INPUT 4
+!LBOX Box size
+15.000
+
+!INPUT 5
+!DEL 
+1.000000
+
+!INPUT 6
+!L0, Length per bead
+0.406666
+
+!INPUT 7
+!v, Volume of bead
+0.100000
+
+!INPUT 8
+!FA, Fraction of A monomers
+0.500000
+
+!INPUT 9
+!LAM, Chemical correlation
+-0.750000
+
+!INPUT 9
+!FRMCHEM, Initial chemical sequence
+0
+
+!INPUT 10
+!EPS, Chain rigidity
+1.000
+
+!INPUT 11
+!CHI0, Initial CHI
+0.000
+
+!INPUT 12
+!DELCHI 
+0.000000
+
+!INPUT 13
+!KAP, Incompressibility
+10.000000
+
+!INPUT 14
+!INDMAX, Total number of savepoints
+1001
+
+!INPUT 15
+!FRMFILE
+0
+
+!INPUT 16
+!BROWN
+1
+
+!INPUT 17
+!INTON
+1
+
+!INPUT 18
+!NCHI, number of savepoints per chi change 
+1
+
+!INPUT 19
+!NPT, number of savepoints per tempering 
+10
+
+!INPUT 20
+!NNOINT 
+100000
+
+!INPUT 21
+!NINIT 
+0
+
+!INPUT 22
+!NSTEP 
+1000
+
+!INPUT 23
+!WRTON 
+1
+
+!INPUT 24
+!PTID 
+1
+
+!INPUT 25
+!NRABOVE 
+-1
+
+!INPUT 26
+!NRBELOW 
+1
+
+!INPUT 27
+!NRNOW
+1
+
+!INPUT 28
+!NRMAX 
+2
+
