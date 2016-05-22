@@ -233,14 +233,15 @@
                      J=INDPHI(I)
                      PHIA(J)=PHIA(J)+DPHIA(I)
                      PHIB(J)=PHIB(J)+DPHIB(I)			   
+                     ECHI=ECHI+(DEL**3.)*(CHI/V)*((PHIA(J)+DPHIA(I))*(PHIB(J)+DPHIB(I))-PHIA(J)*PHIB(J))
  30               CONTINUE
 
-                  ECHI=0
-                  EKAP=0
-                  DO 70 I=1,NBIN
-                     ECHI=ECHI+(DEL**3.)*(CHI/V)*PHIA(I)*PHIB(I)
-                     EKAP=EKAP+(DEL**3.)*(KAP/V)*(PHIA(I)+PHIB(I)-1.)**2.
-70                   CONTINUE
+!                  ECHI=0
+!                  EKAP=0
+!                  DO 70 I=1,NBIN
+!                     ECHI=ECHI+(DEL**3.)*(CHI/V)*PHIA(I)*PHIB(I)
+!                     EKAP=EKAP+(DEL**3.)*(KAP/V)*(PHIA(I)+PHIB(I)-1.)**2.
+!70                   CONTINUE
                else
                   DO 35 I=1,NBIN
                      PHIA(I)=0
